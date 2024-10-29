@@ -1,0 +1,147 @@
+/* Add Task Container */
+.add_task_container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(104, 97, 97, 0.9); /* Semi-transparent dark grey */
+    height: 100vh;
+    width: 100%;
+}
+
+/* Inner Container for Centering */
+.add_task_inner_container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Input Text Area Container */
+.input_text_area_container {
+    justify-content: space-between;
+    width: 500px;
+    background: #fff; /* White background for contrast */
+    padding: 10px;
+    border-radius: 10px;
+    height: 80vh;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Inner Container for Inputs */
+.input_text_area_inner_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Inside Container */
+.inside_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Inside Column Container */
+.inside_col_container {
+    display: flex;
+    gap: 10px;
+}
+
+/* Titles */
+.insider_title, .insider_view_title {
+    font-size: medium;
+    color: grey;
+}
+
+.insider_view_title {
+    font-weight: 500;
+}
+
+/* Input Task Style */
+.input_task_style {
+    padding: 10px 10px 10px 0;
+    border: none;
+    border-bottom: 1px solid #808080; /* Light grey border */
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.input_task_style:focus {
+    outline: none !important;
+    border-bottom: 1px solid #009688; /* Teal border on focus */
+}
+
+/* Text Area Style */
+.text_area_style {
+    padding: 10px 10px 10px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #808080; /* Light grey border */
+    resize: none;
+}
+
+.text_area_style:focus {
+    outline: none;
+    border-bottom: 1px solid #009688; /* Teal border on focus */
+}
+
+/* Button Container */
+.button_container {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+/* Save Button */
+.save_btn {
+    padding: 8px 16px;
+    border: none;
+    background: #009688; /* Teal */
+    color: #fff;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.save_btn:hover {
+    background: #00796b; /* Darker Teal on hover */
+}
+
+/* Close Button */
+.close_btn {
+    padding: 8px 16px;
+    border: none;
+    background: #d83e3e; /* Coral */
+    color: #fff;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.close_btn:hover {
+    background: #c32e2e; /* Darker Coral on hover */
+}
+
+
+.btn_container {
+    display: flex;
+    gap: 10px; /* Adjust spacing between buttons */
+  }
+  
+  .fun_btn {
+    min-width: 40px; /* Set minimum width for buttons */
+    padding: 8px;
+    border-radius: 4px;
+    transition: transform 0.2s; /* Optional: Add a hover effect */
+  }
+  
+  .fun_btn:hover {
+    transform: scale(1.1); /* Scale up on hover for effect */
+  }
+  

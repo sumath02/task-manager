@@ -1,0 +1,17 @@
+{
+    "dev": {
+      "driver": "pg",
+      "user": "postgres",
+      "password": "Sumath@02",
+      "host": "localhost",
+      "database": "task_manager_main"
+    },
+    "prod": {
+      "driver": "pg",
+      "user": "your_username",
+      "password": "your_password",
+      "host": "production_host",
+      "database": "production_database"
+    }
+  }
+  
