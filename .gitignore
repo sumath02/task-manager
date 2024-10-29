@@ -16,6 +16,9 @@ lerna-debug.log*
 hs_err_pid*.log
 debug.log
 
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
 # Runtime data
 pids
 *.pid
@@ -47,14 +50,6 @@ pnpm-lock.yaml
 dist/
 .vite
 *.log
-
-# Vite
-node_modules/
-dist/
-*.log
-.vite/
-.cache/
-*.local
 
 # Production
 build/
@@ -122,7 +117,7 @@ lerna-debug.log
 
 # Hugo
 /public/
-/resources/
+.resources/
 
 # Remix
 build/
