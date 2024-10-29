@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: process.env.CLIENT_URL,
-    credentials: true, // The origin of your frontend
+    credentials: true,
   })
 );
 
@@ -23,7 +23,7 @@ app.use("/api/v2", TaskApi);
 app.use("/api/v3", GoogleApi);
 
 app.use("/", (req, res) => {
-  res.send("Hello from backend");
+  res.send("task manager server working!");
 });
 
 const PORT = process.env.PORT;
