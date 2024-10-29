@@ -50,7 +50,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo" onClick={() => navigate("/")}>
+      <div className="logo">
         <h1>Task Manager</h1>{" "}
       </div>
       <div className="nav-buttons">
